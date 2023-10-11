@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bdd5a8ac-8bed-4e2d-a331-e4ce82dc19e8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/commons/RequiredValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/commons/Validator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/models/member/JoinValidator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/models/member/JoinService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/models/member/JoinService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/JoinServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/JoinServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +29,20 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "jeoninho623"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="ff3e3530-2729-4836-b93e-cc3279be5d72" />
+        <option name="url" value="https://github.com/jeoninho623/Maven_Study.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -58,8 +68,8 @@
   }
 }</component>
   <component name="RunManager" selected="JUnit.JoinServiceTest.requiredFields">
-    <configuration name="Ex03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exam01_Lombok.Ex03" />
+    <configuration name="Ex04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exam01_Lombok.Ex04" />
       <module name="day02" />
       <extension name="coverage">
         <pattern>
@@ -71,15 +81,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exam01_Lombok.Ex04" />
+    <configuration name="JoinServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="day02" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exam01_Lombok.*" />
+          <option name="PATTERN" value="tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.JoinServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -134,10 +146,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.JoinServiceTest.requiredFields" />
+        <item itemvalue="JUnit.JoinServiceTest" />
         <item itemvalue="JUnit.TDDTest" />
         <item itemvalue="JUnit.TDDTest.test1" />
         <item itemvalue="Application.Ex04" />
-        <item itemvalue="Application.Ex03" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +194,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697000652094</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="TDD">
+      <option name="closed" value="true" />
+      <created>1697002737508</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1697002737508</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
