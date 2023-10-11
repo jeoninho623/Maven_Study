@@ -1,9 +1,16 @@
 package models.member;
 
+import commons.Validator;
+
 public class JoinService {
-    public void join(Member member) {
-        String userId = member.getUserId();
-        if(userId == null || userId.isBlank()) {
-            throw new BadRequestException("아이디를 입력하세요");
-        }
+
+    Validator validator;
+
+    public JoinService(Validator validator) {
+        this.validator = validator;
     }
+
+    public void join(Member member) {
+        validator.check(member);
+    }
+}
