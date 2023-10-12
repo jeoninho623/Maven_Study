@@ -12,4 +12,14 @@ public class HelloServlet extends HttpServlet {
     public void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         System.out.println("안녕하세요~");
     }
+
+    @Override
+    public void destroy() {
+        System.out.println("destroy!!!");
+    }
+
+    @Override
+    public void init() throws ServletException {
+        System.out.println("init!!!");
+    }
 }

@@ -7,6 +7,7 @@ import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.Arrays;
 
 public class BoardServlet extends HttpServlet {
     @Override
@@ -18,6 +19,11 @@ public class BoardServlet extends HttpServlet {
         out.print("<form method='post' action='/day04/board'>");
         out.print("제목 : <input type='text' name='subject'><br>");
         out.print("내용 : <textarea name='content'></textarea><br>");
+        out.print("취미 : <input type= 'checkbox' name='hobby' value='취미1'>취미1");
+        out.print("<input type= 'checkbox' name='hobby' value='취미2'>취미2");
+        out.print("<input type= 'checkbox' name='hobby' value='취미3'>취미3");
+        out.print("<input type= 'checkbox' name='hobby' value='취미4'>취미4");
+        out.print("<input type= 'checkbox' name='hobby' value='취미5'>취미5<br>");
         out.print("<button type='submit'>작성하기</button>");
         out.print("</form>");
     }
@@ -27,7 +33,9 @@ public class BoardServlet extends HttpServlet {
         req.setCharacterEncoding("UTF-8");
         String subject = req.getParameter("subject");
         String content = req.getParameter("content");
-
         System.out.printf("subject=%s, content=%s%n", subject,content);
+
+        String[] hobbies = req.getParameterValues("hobby");
+        System.out.println(Arrays.toString(hobbies));
     }
 }
