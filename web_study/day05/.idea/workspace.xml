@@ -5,25 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69a39ac4-7d07-4efa-bd30-52c93621f1a7" name="Changes" comment="JSP">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/exam03/footer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/exam03/header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/exam03/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/exam04/ex01.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/exam04/ex02.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/exam04/ex03.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/exam04/ex04.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/exam04/ex05.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/exam04/ex06.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/exam04/footer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/exam04/header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/exam04/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controllers/members/JoinController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/models/members/JoinService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/models/members/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/member/join.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -57,6 +56,14 @@
     "last_opened_file_path": "C:/Users/Administrator/Desktop/전인호(B2)/5. 프로그래밍 언어 활용/web_study/day05/src/main/webapp/exam04"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\전인호(B2)\5. 프로그래밍 언어 활용\web_study\day05\src\main\webapp\exam04" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\전인호(B2)\5. 프로그래밍 언어 활용\web_study\day05\src\main\webapp\WEB-INF\templates" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="tomcat10" type="com.poratu.idea.plugins.tomcat">
       <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
@@ -116,7 +123,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697432270982</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="JSP">
+      <option name="closed" value="true" />
+      <created>1697440579649</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1697440579649</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
