@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69a39ac4-7d07-4efa-bd30-52c93621f1a7" name="Changes" comment="JSP">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/exam05/ex05.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/exam06/ex01.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/exam06/ex02.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/exam06/ex03.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/exam06/ex03_ps.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/exam06/ex04.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/exam05/ex03.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/exam05/ex03.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/exam05/ex04.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/exam05/ex04.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/members/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/members/Member.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +33,9 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.jdks/openjdk-21/lib/src.zip!/java.base/sun/nio/ch/Net.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -72,11 +79,14 @@
       <option name="catalinaBase" value="C:\Users\Administrator\.SmartTomcat\day05\day05" />
       <option name="contextPath" value="/day05" />
       <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
+      <option name="envOptions">
+        <map />
+      </option>
       <option name="extraClassPath" value="" />
       <option name="port" value="3000" />
       <option name="tomcatInfo">
         <TomcatInfo>
-          <option name="name" value="Apache Tomcat/10.1.14" />
+          <option name="name" value="Apache Tomcat/10.1.14 (3)" />
           <option name="path" value="$PROJECT_DIR$/../../../apache-tomcat-10.1.14" />
           <option name="version" value="10.1.14.0" />
         </TomcatInfo>
@@ -153,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697446257215</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="JSP">
+      <option name="closed" value="true" />
+      <created>1697518865311</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1697518865311</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
