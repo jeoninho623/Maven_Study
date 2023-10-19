@@ -5,16 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69a39ac4-7d07-4efa-bd30-52c93621f1a7" name="Changes" comment="JSTL">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/box.tag" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/line.tag" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/line2.tag" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/max.tag" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/min.tag" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/exam09/ex01.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/exam09/ex02.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/exam09/ex03.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/exam09/ex04.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controllers/members/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/forEach.tag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/layouts/common.tag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/layouts/main.tag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/member/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/exam10/ex01.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/exam09/ex04.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/exam09/ex04.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,21 +52,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "JSP",
-    "last_opened_file_path": "C:/Users/Administrator/Desktop/전인호(B2)/5. 프로그래밍 언어 활용/web_study/day05/src",
-    "settings.editor.selected.configurable": "File.Encoding"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;JSP&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Administrator/Desktop/전인호(B2)/5. 프로그래밍 언어 활용/web_study/day05/src&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\Desktop\전인호(B2)\5. 프로그래밍 언어 활용\web_study\day05\src\main\webapp\exam04" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\전인호(B2)\5. 프로그래밍 언어 활용\web_study\day05\src\main\webapp\WEB-INF\tags\layouts" />
       <recent name="C:\Users\Administrator\Desktop\전인호(B2)\5. 프로그래밍 언어 활용\web_study\day05\src\main\webapp\WEB-INF\templates" />
     </key>
   </component>
@@ -227,7 +226,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697611487444</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="JSTL">
+      <option name="closed" value="true" />
+      <created>1697618891041</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1697618891041</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
